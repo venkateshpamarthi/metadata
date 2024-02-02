@@ -46,10 +46,10 @@ const INITIALIZE = true;
 async function main() {
   console.log("let's name some token-22 tokens in 2024!");
   const myKeypair = loadWalletKey(
-    "AndyUCWqhEnEMqHAByoRSHz2mvQxdyXyki9UQ7YCrTBY.json"
+    " weFm4XYUVUckbiM5ErKuQsvPqFRJhS2R93gZRbBQA7p.json"
   );
   const mint = new web3.PublicKey(
-    "SD2idHukkWPziSuhVnD6yf2gNbgzGYzyvv7787ZvazK"
+    "tokikSrhSHdi7c8Z1eQZwBDtNPT5MouoCyT8vU8aicC"
   );
 
   const umi = createUmi("https://api.devnet.solana.com");
@@ -58,10 +58,11 @@ async function main() {
 
   const ourMetadata = {
     // TODO change those values!
-    name: "Silly Dragon Token Extended",
+    name: "VenkyToken Extended",
     symbol: "SDT",
     uri: "https://raw.githubusercontent.com/loopcreativeandy/video-tutorial-resources/main/metadataUpdate/metadata.json",
   };
+  //raw.githubusercontent.com https://raw.githubusercontent.com/venkateshpamarthi/metadata/blob/main/metadata.json
   if (INITIALIZE) {
     const onChainData = {
       ...ourMetadata,
