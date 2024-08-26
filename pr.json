@@ -1,0 +1,27 @@
+{
+    "name": "future cars",
+    "symbol": "CAR",
+    "description": "A collection of beautiful future car",
+    "image": "https://raw.githubusercontent.com/venkateshpamarthi/metadata/main/future-supercars.webp",
+    "properties": {
+        "files": {
+            "0": {
+                "type": "image/jpg",
+                "uri": "https://raw.githubusercontent.com/venkateshpamarthi/metadata/main/future-supercars.webp"
+
+            }
+        },
+        "category": "image"
+    },
+    "attributes": [ 
+      {
+        "trait_type": "car",
+        "value": "super"
+      },
+      {
+        "trait_type": "Color",
+        "value": "multi"
+      }
+    ]
+  }
+  
